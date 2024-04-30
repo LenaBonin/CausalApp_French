@@ -12,7 +12,7 @@ fluidRow(
 <br>
 
 
-Le code de l'application est disponible au lien suivant : <a href = https://github.com/LenaBonin/CausalApp> https://github.com/LenaBonin/CausalApp </a> <br>
+Le code de l'application est disponible au lien suivant : <a href = https://github.com/LenaBonin/CausalApp_French> https://github.com/LenaBonin/CausalApp_French </a> <br>
 <br>
            
            <br>
