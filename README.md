@@ -4,5 +4,7 @@ These recommendations concern the estimand, the most appropriate and parcimoniou
 
 There are a French and an English version. For the English version switch to CausalApp_English repository.
 
+The app is available at https://equity-cerpop.shinyapps.io/causalapp_fr/
+
 ## Copyright
 CausalApp is licensed under the GNU General Public License (GPL) v3.0.
