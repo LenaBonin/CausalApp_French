@@ -1,0 +1,66 @@
+---
+title: "Recommandations pour votre analyse de médiation"
+output: html_document
+params:
+   Objective : NA
+   VarType : NA
+   ConstraintVar : NA
+   ConstraintConf : NA
+   ConstraintPos : NA
+   Interaction : NA
+   Estimands: NA
+   Decomposition : NA
+   Methodes : NA
+   Assumptions : NA
+   Packages : NA
+
+---
+
+# Résumé de vos réponses
+
+<b> Objectifs </b>
+`r params$Objective`
+<br>
+
+<b> Type des variables </b>
+```{r, echo=F}
+kableExtra::kable_styling(knitr::kable(params$VarType), full_width = F, position = "left")
+```
+
+<b> Contraintes sur les variables d'intérêt </b>
+```{r, echo=F}
+kableExtra::kable_styling(knitr::kable(params$ConstraintVar), full_width = F, position = "left")
+```
+
+<b> Contraintes sur les facteurs de confusion </b>
+```{r, echo=F}
+kableExtra::kable_styling(knitr::kable(params$ConstraintConf), full_width = F, position = "left")
+```
+
+<b> Positivité </b>
+```{r, echo=F}
+kableExtra::kable_styling(knitr::kable(params$ConstraintPos), full_width = F, position = "left")
+```
+
+<b> Interaction entre l'exposition et le médiateur </b>
+```{r, echo=F}
+kableExtra::kable_styling(knitr::kable(params$Interaction), full_width = F, position = "left")
+```
+
+# Recommandations
+
+## Estimands
+
+`r params$Estimands`
+
+## Décomposition
+`r params$Decomposition`
+
+## Méthodes
+`r params$Methodes`
+
+## Hypothèses
+`r params$Assumptions`
+
+## Packages R
+`r params$Packages`

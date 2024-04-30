@@ -1,0 +1,49 @@
+---
+title: "Recommandations pour votre analyse causale"
+output: html_document
+params:
+   Objective : NA
+   VarType : NA
+   Constraints : NA
+   Estimands: NA
+   Methodes : NA
+   Assumptions : NA
+   Packages : NA
+
+---
+
+# Résumé de vos réponses
+<br>
+<b> Objectif </b> <br>
+`r params$Objective`
+<br>
+
+<b> Type des variables </b>
+```{r, echo=F}
+kableExtra::kable_styling(knitr::kable(params$VarType), full_width = F, position = "left")
+```
+
+<b> Contraintes </b>
+```{r, echo=F}
+kableExtra::kable_styling(knitr::kable(params$Constraints), full_width = F, position = "left")
+```
+
+<br>
+
+# Recommandations 
+<br>
+
+## Estimands
+
+`r params$Estimands`
+
+## Méthodes
+`r params$Methodes`
+
+## Hypothèses
+`r params$Assumptions`
+
+## Packages R
+`r params$Packages`
+
+
